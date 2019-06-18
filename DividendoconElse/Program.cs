@@ -26,7 +26,8 @@ namespace DividendoconElse
             if(divisor!=0)
 
             {
-                resultado = Convert.ToSingle(Console.ReadLine());
+                resultado = dividendo / divisor;
+
                 Console.WriteLine("El resultado de dividir {0} por {1} es {2}", dividendo, divisor, resultado);
             }
 
